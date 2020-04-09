@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Concur-20</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.12.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/static/css/styles.css" rel="stylesheet" />
+
+        <link href="/static/css/img.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="/">Concur-20</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="/">Index</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="container" style="margin:150px 0px 100px 0px;">
+            <div class="row">
+                <!-- plane -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1>Plane</h1>
+                    <div class="row">
+                        <div class="box-select col-md-10 col-sm-6 portfolio-item portfolio-item-caption" >
+                            <img class="img-fluid fixed-plane-img" src="/static/assets/img/plane/1.PNG" alt="" id="p1" onclick="p1_Function()">
+                            <!-- <button class="btn btn-info" type="button">Select</button> -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-sm-6 portfolio-item">
+                            <img class="img-fluid fixed-plane-img" src="/static/assets/img/plane/2.PNG" alt="" id="p2" onclick="p2_Function()">
+                            <!-- <button class="btn btn-info" type="button">Select</button> -->
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 col-sm-6 portfolio-item">
+                            <img class="img-fluid fixed-plane-img" src="/static/assets/img/plane/3.PNG" alt="" id="p3" onclick="p3_Function()">
+                            <!-- <button class="btn btn-info" type="button">Select</button> -->
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    function p1_Function() {
+                      document.getElementById("p1").style.border = "solid #00ff00 2px";
+                      document.getElementById("p2").style.border = "0px";
+                      document.getElementById("p3").style.border = "0px";
+                    }
+
+                    function p2_Function() {
+                      document.getElementById("p1").style.border = "0px";
+                      document.getElementById("p2").style.border = "solid #00ff00 2px";
+                      document.getElementById("p3").style.border = "0px";
+                    }
+
+                    function p3_Function() {
+                      document.getElementById("p1").style.border = "0px";
+                      document.getElementById("p2").style.border = "0px";
+                      document.getElementById("p3").style.border = "solid #00ff00 2px";
+                    }
+                    </script>
+                <!-- plane -->
+                
+                <!-- hotel -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <h1>Hotel</h1>
+
+                    <div class="row">
+
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <img class="img-fluid fixed-img" src="/static/assets/img/hotel/1.jpg" alt="" id="h1" onclick="h1_Function()">
+                            <div class="portfolio-caption">
+                                <h4>Plane 1</h4>
+                                <!-- <button class="btn btn-info" type="button">Select</button> -->
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <img class="img-fluid fixed-img" src="/static/assets/img/hotel/2.jpg" alt="" id="h2" onclick="h2_Function()">
+                            <div class="portfolio-caption">
+                                <h4>Plane 1</h4>
+                                <!-- <button class="btn btn-info" type="button">Select</button> -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <img class="img-fluid fixed-img" src="/static/assets/img/hotel/3.jpg" alt="" id="h3" onclick="h3_Function()">
+                            <div class="portfolio-caption">
+                                <h4>Plane 1</h4>
+                                <!-- <button class="btn btn-info" type="button">Select</button> -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <img class="img-fluid fixed-img" src="/static/assets/img/hotel/4.jpg" alt="" id="h4" onclick="h4_Function()">
+                            <div class="portfolio-caption">
+                                <h4>Plane 1</h4>
+                                <!-- <button class="btn btn-info" type="button">Select</button> -->
+                            </div>
+                        </div>
+    
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <img class="img-fluid fixed-img" src="/static/assets/img/hotel/5.jpg" alt="" id="h5" onclick="h5_Function()">
+                            <div class="portfolio-caption">
+                                <h4>Plane 1</h4>
+                                <!-- <button class="btn btn-info" type="button">Select</button> -->
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 col-sm-6 portfolio-item">
+                            <img class="img-fluid fixed-img" src="/static/assets/img/hotel/6.jpg" alt="" id="h6" onclick="h6_Function()">
+                            <div class="portfolio-caption">
+                                <h4>Plane 1</h4>
+                                <!-- <button class="btn btn-info" type="button">Select</button> -->
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <script>
+                    function h1_Function() {
+                      document.getElementById("h1").style.border = "solid #00ff00 5px";
+                      document.getElementById("h2").style.border = "0px";
+                      document.getElementById("h3").style.border = "0px";
+                      document.getElementById("h4").style.border = "0px";
+                      document.getElementById("h5").style.border = "0px";
+                      document.getElementById("h6").style.border = "0px";
+                    }
+
+                    function h2_Function() {
+                      document.getElementById("h1").style.border = "0px";
+                      document.getElementById("h2").style.border = "solid #00ff00 5px";
+                      document.getElementById("h3").style.border = "0px";
+                      document.getElementById("h4").style.border = "0px";
+                      document.getElementById("h5").style.border = "0px";
+                      document.getElementById("h6").style.border = "0px";
+                    }
+
+                    function h3_Function() {
+                      document.getElementById("h1").style.border = "0px";
+                      document.getElementById("h2").style.border = "0px";
+                      document.getElementById("h3").style.border = "solid #00ff00 5px";
+                      document.getElementById("h4").style.border = "0px";
+                      document.getElementById("h5").style.border = "0px";
+                      document.getElementById("h6").style.border = "0px";
+                    }
+
+                    function h4_Function() {
+                      document.getElementById("h1").style.border = "0px";
+                      document.getElementById("h2").style.border = "0px";
+                      document.getElementById("h3").style.border = "0px";
+                      document.getElementById("h4").style.border = "solid #00ff00 5px";
+                      document.getElementById("h5").style.border = "0px";
+                      document.getElementById("h6").style.border = "0px";
+                    }
+
+                    function h5_Function() {
+                      document.getElementById("h1").style.border = "0px";
+                      document.getElementById("h2").style.border = "s0px";
+                      document.getElementById("h3").style.border = "0px";
+                      document.getElementById("h4").style.border = "0px";
+                      document.getElementById("h5").style.border = "solid #00ff00 5px";
+                      document.getElementById("h6").style.border = "0px";
+                    }
+
+                    function h6_Function() {
+                      document.getElementById("h1").style.border = "0px";
+                      document.getElementById("h2").style.border = "0px";
+                      document.getElementById("h3").style.border = "0px";
+                      document.getElementById("h4").style.border = "0px";
+                      document.getElementById("h5").style.border = "0px";
+                      document.getElementById("h6").style.border = "solid #00ff00 5px";
+                    }
+                    </script>
+                <!-- hotel -->
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <button type="submit" class="btn btn-primary" onclick="window.location.href = '/book';">Book!!!</button>
+                </div>
+                
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Location</h4>
+                        <p class="lead mb-0">CNX Thailand<br />CMU</p>
+                    </div>
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-4 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">Around the Web</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1" href="#"><i class="fab fa-fw fa-dribbble"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <div class="col-lg-4">
+                        <h4 class="text-uppercase mb-4">About Concur-20</h4>
+                        <p class="lead mb-0">Booking Service</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <section class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright © Your Website 2020</small></div>
+        </section>
+        <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+        <div class="scroll-to-top d-lg-none position-fixed">
+            <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Contact form JS-->
+        <script src="/static/assets/mail/jqBootstrapValidation.js"></script>
+        <script src="/static/assets/mail/contact_me.js"></script>
+        <!-- Core theme JS-->
+        <script src="/static/js/scripts.js"></script>
+    </body>
+</html>
