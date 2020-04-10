@@ -1,0 +1,97 @@
+{
+    "Members": {
+        "0": {
+            "Password": "00000",
+            "Username": "Gambit",
+            "transaction_": [
+                {
+                    "status": "pending",
+                    "Flight": {
+                        "available": true,
+                        "Name": "PanAm"
+                    },
+                    "hotel": {
+                        "available": true,
+                        "Name": "The Rich"
+                    }
+                },
+                {
+                    "status": "pending",
+                    "Flight": {
+                        "available": true,
+                        "Name": "SingAir"
+                    },
+                    "hotel": {
+                        "available": true,
+                        "Name": "EHOME"
+                    }
+                }
+            ],
+            "signup_date": "Fri Apr 10 00:47:46 2020"
+        },
+        "1": {
+            "Password": "12345",
+            "Username": "test-g",
+            "transaction_": [],
+            "signup_date": "Fri Apr 10 01:27:03 2020"
+        },
+        "2": {
+            "Password": "123456",
+            "Username": "test1",
+            "transaction_": [],
+            "signup_date": "Fri Apr 10 08:11:49 2020"
+        },
+        "3": {
+            "Password": "1a",
+            "Username": "Rela",
+            "transaction_": [],
+            "signup_date": "Fri Apr 10 08:19:14 2020"
+        },
+        "4": {
+            "Password": "12345",
+            "Username": "admin",
+            "transaction_": [],
+            "signup_date": "Fri Apr 10 08:39:28 2020"
+        }
+    },
+    "Hotels": {
+        "0": {
+            "available": true,
+            "Name": "Novotel"
+        },
+        "1": {
+            "available": false,
+            "Name": "EHOME"
+        },
+        "2": {
+            "available": true,
+            "Name": "The Rich"
+        },
+        "3": {
+            "available": true,
+            "Name": "Tarwan"
+        },
+        "4": {
+            "available": true,
+            "Name": "The Grand"
+        },
+        "5": {
+            "available": true,
+            "Name": "Centralpoint"
+        }
+    },
+    "Flights": {
+        "0": {
+            "available": false,
+            "Name": "SingAir"
+        },
+        "1": {
+            "available": false,
+            "Name": "PanAm"
+        },
+        "2": {
+            "available": false,
+            "Name": "LionAir"
+        }
+    }
+}
